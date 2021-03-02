@@ -1,0 +1,71 @@
+
+
+
+ # penetration-testers:  help business and organization to identify and resolve security vulnerabilities and weekness of digital assets and computer networks. a tester is authorized to test the computer system.   
+						 different types of penetration tests include network services + web and mobile applications + different of servers + social engineering + etc +  
+					   
+ # goal of penetration-testing:
+			+ regulatory compliance
+			+ security assesment
+			+ defense development
+	
+		
+ # how it works: testing phase:
+			+ planning phase
+			+ discovery phase
+			+ attack phase
+			+ reporting phase
+
+
+ # types of penetration-testers:
+ 
+			+ black box	> tester has no idea about the systems that he is going to test. he is interested to gather information.	
+			+ white box > tester has been provided with whole range of information about the systems.
+			+ grey box 	> tester usually provides partial or limited information about the internal details of the program of a system.
+
+
+ # types of computer attacks: malware + ddos + phishing + cross site scripting + mitm + sql-injection + social-engineering-attack
+						
+				+ types of malware: ransomaware + spyware + adware + trojan + spam + keylogger + bots + rootkits + worms
+				+ types of ddos :   volume based attack 		>	udp flood + icmp flood..				
+									protocol based attack 		> 	syn flood..	ping to death..
+						 			application based attack 	> 	http flood + slowloris +  
+						 			zero day 					>	unknown vulnerabilities + new attack vectors + 	
+					
+
+ # vapt	: 	nmap + wireshark/tcpdump + metaspolit + nessus + burp suite  + nikto + ettercap + w3af + aircrak-ng + sqlmap + vega + john-the-ripper-password-cracker			
+ # siem	:   ossim (alignvault) + splunk + snort + elasticsearch + apache metron + wazuh			
+ # pam	:	jumpcloud + hashicorp vault + cyberark + arcon + centrify	
+ # fim  :  	ossec + solarwind + wazuh + tripwire + qualysguard fim
+ # waf 	:  	sucuri + cloudflare + aws waf
+ 
+ # soar :	(security orchestration automation response) > threat intelligence | security orchestration and automation | security incident response platform
+			> priority > detect > response > triage
+
+ # nist framework: (ipdrr)			
+	
+			+ identity 	:	what process and asset need to protect
+			+ protect	:	safeguard to ensure protection 
+			+ detect	:	appropriate mechanism to identify occurance and incidents
+			+ response	:	develop techniques	
+			+ recover	:	appropriate process to restore capabilities and siem
+
+ # threat intelligence: is information about threats that help to mitigate harmful events is cyberspace. (4) main types in threat intelligence:
+			> strategic > technical > tactical > operational
+			
+			+ cisco		: talos intelligence
+			+ google	: safe browsing
+			+ spamhaus
+			+ palalto 	: mimemeld
+			+ total virus
+			+ fbi 		: infragard portal
+
+
+ # os-interlligence: its publicly available sources for collecting + analyzing and making decisions..
+			+ google dork
+			+ osintframework
+			+ shodan
+			+ maltego
+			+ the harvester
+			+ check useraname
+				
