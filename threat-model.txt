@@ -1,0 +1,47 @@
+
+<Threat-Modeling>
+
+	# Define Objectives:	
+
+			- identify business objectives
+			- identify security and compliance requirement
+			- business impact analysis
+	
+	
+	# Define Technical Scope:
+
+			- capture the boundaries of the technical enviroment
+			- capture the infrastructure.. application and software dependencises
+	
+	
+	# Application Decomposition:	
+
+			- identify use case
+			- identify actors .. assets.. services .. roles.. data resources
+			- data flow datagram
+
+			
+	# Threat Analysis:	
+
+			- probabilistic attack scenarios analysis
+			- regression analysis on security events
+			- threat intelligence correlation and analytics
+
+	
+	# Vulerability and Weakness Analysis:
+
+			- queries of existing vulnerablity reports and issue tracking
+			- threat to existing vulnerablity mapping using threat-trees
+			- scoring (CVSS/CWSS) and enumerations (CWE/CVE)
+
+	
+	# Attack Modeling:
+
+			- surface attack analysis
+			- attack of vulnerablity and explot analysis using attack trees
+
+			
+	# Risk and Impact Analysis:	
+
+			- qualify business impact
+			- risk mitigation strategies 
