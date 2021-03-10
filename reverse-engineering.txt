@@ -1,0 +1,16 @@
+
+
+
+#reverse-engineering: with reverse engineering, we can accomplish several tasks related to cybersecurity..  finding system vulnerabilities.. researching malware and viruses..
+	analyzing the complexity of restoring core software algorithms that can further protect against theft...
+
+
+	- top reverse-engineering tools:
+
+	+ ida pro
+	+ ghidra
+	+ binary ninja
+	+ hopper
+	+ radare2
+	+ apktool
+
