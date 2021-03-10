@@ -1,0 +1,42 @@
+
+
+
+
+#data loss prevention: makes sure that users do not send sensitive or critical information outside the corporate network. 
+			sensitive data (credit card info.. intellectual property)is information that must be protect against unauthorized access. 
+ 
+# how does dlp system works?
+
+
+		+ endpoint 	: data residing on desktop.. laptop.. usb storages
+		+ storage 	: unstructure data residing on a server or structure data residing on databases
+		+ network	: data that transmits or leaves the network to internet
+		+ cloud		: data residing on google drive.. mail..
+
+
+
+# dlp tools:
+
+		+ code42
+		+ teramind
+		+ nightfall
+		+ vipre SafeSend
+		+ better-cloud
+		+ safetica
+		+ netskope
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
