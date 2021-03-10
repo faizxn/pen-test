@@ -4,7 +4,16 @@
  # penetration-testers:  help business and organization to identify and resolve security vulnerabilities and weekness of digital assets 
  and computer networks. a tester is authorized to test the computer system. different types of penetration tests include network services
  web and mobile applications + different of servers + social engineering + etc.. 
-					   
+		
+		
+ # roles of penetation-testers:
+ 		+ conduct tests on networks and applications
+		+ physical security assessments
+		+ conduct security audits
+		+ analyze security policies
+		+ write security assessment Reports
+					
+					
  # goal of penetration-testing:
 			+ regulatory compliance
 			+ security assesment
