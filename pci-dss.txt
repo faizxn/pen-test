@@ -1,0 +1,53 @@
+
+
+## PCI compliance helps businesses to reduce and minimize the risk of their payment system.
+
+
+# 12- step of pci-dss compliance checklist: 
+
+	- install and maintain a firewall to protect customer data
+	- dont use vendor-supplied default passwords
+	- protect stored card-holder data
+	- encrypt all transmission of cardholder data
+	- use and update anti-virus software
+	- develop and maintain secure systems and applications
+	- restrict accèss to cardholder data
+	- track and monitor user access
+	- restrict physical access to cardholder data
+	- track and monitor access to cardholder Data
+	- test Security systems and processes
+	- maintain a policy that addresses information security
+
+
+ # how to maintain pci-dss-compliance?
+
+	- perform ASV (approved scanning vendors)
+	- perform Penetration testing
+	- run data discovery tool to discover card data in plain text (sisa-tipper)
+	- train the professionals
+
+
+ # pci dss compliance /ssf (software security framework):
+
+ 
+	phase-1: (pre assesesment phase)
+		- meeting and awareness session
+		- sharing and exchange of preliminary documents
+		
+	
+	phase-2: (assesesment phase)
+		- understanding businesses flow
+		- scoping
+		- gap assesesment
+		
+		
+	phase-3: (remediation phase)
+		- consulting on how to mitigate the gaps
+		- offsite support for closure of gaps
+		
+	
+	phase-4: (certification phase)
+	
+		- offsite review
+		- final onsite audit
+
