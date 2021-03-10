@@ -1,64 +1,123 @@
 
+_____________________________Information Security | Goverenance |  Risk and Complience__________________________________
 
-_____________________________Information Security .. Goverenance.. Risk and Complience__________________________________
+
+#Security Assets:> photos .. bank accounts details .. account information - (linkedin.. facebook.. amazon).. browser history.. password information.. financial records
 
 
  Auditing:
 
-
 	# soc: (soc needs siem software that helps an organization to protect its infrastucture and information as internal and external threats)
-				- log collectors.. correlation enginer and log visualizers
-				- threat intelligence and signature updates
-				- integration of endpoint.. servers .. network devices and applications ensure all event logs are collected in siem.
-				- storage to manage log data
-				- incident reponders are trainied to handle incidents
-				- make sure SIEM solution has an alternative facility or DR 
-				- compliance requirements like pci-dss
-			
+				+ log collectors.. correlation enginer and log visualizers
+				+ threat intelligence and signature updates
+				+ integration of endpoint.. servers .. network devices and applications ensure all event logs are collected in siem.
+				+ storage to manage log data
+				+ incident reponders are trainied to handle incidents
+				+ make sure SIEM solution has an alternative facility or DR 
+				+ compliance requirements like pci-dss
+
 		
 	
 	# incident management: (involves returning services to normal as soon as possible after incident has occured)
 		
-				- check and verify incident management policy approved and review regularly. make sure incident plans rules and reposibilites escalation metrics etc
-				- make sure there is way to report incident by employee
-				- make sure incident are locked and captured properly in an application for better tracking. organization has known error database for easy reference
-				- make sure incident are evaluated and analyze on the critically and severity such as high..medium and low
-				- make sure incident are prioritize based on impact and adequte resource are aligned to resolve it
-				- make sure critical incident are reported to management
-				- check and verify time to reponse and time to resolve that SLA meet
-				- check and verify all the evidence are stored in secure place
-				
+				+ check and verify incident management policy approved and review regularly. make sure incident plans rules and reposibilites escalation metrics etc
+				+ make sure there is way to report incident by employee
+				+ make sure incident are locked and captured properly in an application for better tracking. organization has known error database for easy reference
+				+ make sure incident are evaluated and analyze on the critically and severity such as high..medium and low
+				+ make sure incident are prioritize based on impact and adequte resource are aligned to resolve it
+				+ make sure critical incident are reported to management
+				+ check and verify time to reponse and time to resolve that SLA meet
+				+ check and verify all the evidence are stored in secure place
+	
+	
 				
 	# change management: (in the absence of a proper change management process unauthorized change activites will lead to intentional or unintentional damage to 
 enterprise infrastucture.. application and data)
 				
-				- a change management policy like user roles and reposibilites.. regular.. standard and emergency change 
-				- major change requests approvals from business unit head.. techical head
-				- business requirements.. impact analysis.. system requirements are app
-				- make sure test cases.. test results are verified and change is released in the production
-				- check and verify release plans.. polices.. procedues.. authorization for emergency changes
-				- check and verify all the changes are performed are validated and verfied
-				
+				+ a change management policy like user roles and reposibilites.. regular.. standard and emergency change 
+				+ major change requests approvals from business unit head.. techical head
+				+ business requirements.. impact analysis.. system requirements are app
+				+ make sure test cases.. test results are verified and change is released in the production
+				+ check and verify release plans.. polices.. procedues.. authorization for emergency changes
+				+ check and verify all the changes are performed are validated and verfied
+	
+	
+	
 	# hr security:
 	
-				- background verification.. police verification.. and work experience.. address and drug checks etc
-				- 
+				+ background verification.. police verification.. and work experience.. address and drug checks etc
 	
 	
 	
+	# network security: 
 	
-	- network security
-	- backup and restoration
-	- antivirus management
-	- it compliance 
-	- unix
-	- it asset management
-	- data center
-	- endpoint security
-	- windows server
+				+ check and verify network security policy and architecture diagram is update and regularly reviewed
+				+ enterprise network seregrated into zones like dmz.. internal.. production and guest.. check and verify internal..dmz and external network not directly connected
+				+ no single point of failure (spof) for firewall.. router and switch.. check and verify that guest network is fully isolated
+				+ make sure data is secure over network by encryption or secure protocol like https.. ssh.. vpn tunnel
+				+ all netwoking devices are maintained in as asset register with details such as ownership..asset and details
+				+ any changes to network devices, logs are maintained and review regularly
+				+ network devices hardened.. default/generic user ids and passwords are changed or disabled
+				+ make sure lastest security patches are installed
+				+ make sure that all security related events from devices are logged to a syslog server
+				
+				
 	
-
+	# backup and restoration: backups are the heart of business continuity management. its an important activity for an organization
 	
+				+ backup of transaction data.. user data and configuration data.. logs.. cctv footage.. physical access etc
+				+ backup polices are defined on the servers.. network devices and databases etc configured.. implemented and reviewed regularly
+				+ backup servers are secured and protected physically.. logically protected in the data center
+				+ backup taken as per defined periodic and monitored for failed backup jobs
+				+ make sure confidential and sensitive data is encrypted in the database
+				+ backup the devices label and tapes check for expiry 
+				+ verify the integrity of the backup by performing regular restoration test
 	
+				
+				
+	# antivirus management:
+				
+				+ configured to scan all the internet downloads .. usb devices and files.. user restriction to modify the configuration
+				+ malware events as well as administrator activites are logged .. monitored and acted upon 
+				+ manage daily.. weekly.. monthly compliance.. isses tracked and resolved and reports
+				
+				
+				
+	# it compliance:
 	
+				+ verify the evidences of all relevant statutory that is achieved by organization on a regular basis
+				+ data protection and privacy policy is communicated to all persons involved  in information within organization
+				+ software is acquired from known source. no copy right violation and no unauthorized software can be installed
+				+ sensitive data in transit have adequate encryption as per regulation.. use of cryptography is an compliance
+				+ audits are performed and findings are recorded.. followed up and evidences are securely preserved for future reference				
+				
+				
+				
+	# it asset management:
+	
+				+ make sure an organization maintained and stored asset information in software
+				+ make sure all the assets are classifed and labelled in the inventory
+				+ make sure there is a process of asset verification and tracking is performed regularly
+		
+				
+	# data center: where cloud is hosted
+				
+				+ make sure that data center access is provided to legitimated users upon approvals
+				+ make sure visitors access is logged and visitors is always escorted by an employee
+				+ make sure that security alarms are working effectively
+				+ make sure data center has power and cooling redundancy.. moisture .. fire and sensores are installed
+				
+				
+				
+	# endpoint security:
+				
+				+ make sure endpoint part is corporate domain
+				+ make sure opeating system copy is valid.. verified and legitimated 
+				+ make sure antivirus and required patches are installed and upto date.
+				+ make sure user does not have right to change the registry or change the system setting.. install/uninstall.. start or stop services.. changes the date and time
+				+ make sure USB port is disabled
+				+ bios access retricted with admin passwords
+				+ make sure user can not create or run batch files
+				+ make sure user has resticted internet access and access to network is based on business requirements
+				+ make sure user does not have rights to send or recevie emails from external resource
 	
