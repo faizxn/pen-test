@@ -1,0 +1,64 @@
+
+
+_____________________________Information Security .. Goverenance.. Risk and Complience__________________________________
+
+
+ Auditing:
+
+
+	# soc: (soc needs siem software that helps an organization to protect its infrastucture and information as internal and external threats)
+				- log collectors.. correlation enginer and log visualizers
+				- threat intelligence and signature updates
+				- integration of endpoint.. servers .. network devices and applications ensure all event logs are collected in siem.
+				- storage to manage log data
+				- incident reponders are trainied to handle incidents
+				- make sure SIEM solution has an alternative facility or DR 
+				- compliance requirements like pci-dss
+			
+		
+	
+	# incident management: (involves returning services to normal as soon as possible after incident has occured)
+		
+				- check and verify incident management policy approved and review regularly. make sure incident plans rules and reposibilites escalation metrics etc
+				- make sure there is way to report incident by employee
+				- make sure incident are locked and captured properly in an application for better tracking. organization has known error database for easy reference
+				- make sure incident are evaluated and analyze on the critically and severity such as high..medium and low
+				- make sure incident are prioritize based on impact and adequte resource are aligned to resolve it
+				- make sure critical incident are reported to management
+				- check and verify time to reponse and time to resolve that SLA meet
+				- check and verify all the evidence are stored in secure place
+				
+				
+	# change management: (in the absence of a proper change management process unauthorized change activites will lead to intentional or unintentional damage to 
+enterprise infrastucture.. application and data)
+				
+				- a change management policy like user roles and reposibilites.. regular.. standard and emergency change 
+				- major change requests approvals from business unit head.. techical head
+				- business requirements.. impact analysis.. system requirements are app
+				- make sure test cases.. test results are verified and change is released in the production
+				- check and verify release plans.. polices.. procedues.. authorization for emergency changes
+				- check and verify all the changes are performed are validated and verfied
+				
+	# hr security:
+	
+				- background verification.. police verification.. and work experience.. address and drug checks etc
+				- 
+	
+	
+	
+	
+	- network security
+	- backup and restoration
+	- antivirus management
+	- it compliance 
+	- unix
+	- it asset management
+	- data center
+	- endpoint security
+	- windows server
+	
+
+	
+	
+	
+	
