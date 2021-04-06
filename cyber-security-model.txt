@@ -1,0 +1,80 @@
+
+ # advanced threat protection
+	
+	- botnet protection
+	- malware analysis
+	- sandboxing and emulation
+	- application whitelisting
+	- network forensics
+	- automated security analytics
+	
+	
+ # network security
+ 
+	- firewall management
+	- network access control
+	- secure network design
+	- unified threat management
+	- remote access solution
+	- intrusion detection-prevention system
+	- penetration testing
+	
+ 
+ # data security
+ 
+	- data entryption
+	- data leakage prevention
+	
+	
+ # infrasturcture security
+ 
+	- dns security
+	- mail security
+	- unified communication
+	- security information and event information
+	- log and faise positive analysis
+	- zero data vulnerability tracking
+ 
+ 
+ # system security
+ 
+	- windows/linux server security
+	- vulnerability/patch management
+	- automated vulnerability scanning
+ 
+ 
+ # application security
+ 
+	- web application security
+	- owasp top 10 and cwe top 25
+	- database activity monitoring
+	- content security
+	- secure file transfer
+	- web application firewall
+	- secure coding practices
+	- testing for vulnerability validation
+	- application penetration testing
+	- secure code review
+
+	
+ # mobile security
+ 
+	- authencation and on-boarding
+	- rogue access point detection
+	- wireless secure protocols 
+	- owasp mobile top 10
+	- mobile app automated scanning
+	- dynamic mobile app analysis
+	- secure code practices
+	- mobile penetration testing
+	- secure code review
+	
+	
+ # risk governance and compliance 
+ 
+	- iso-27001/hippa/pci-soc
+	- firewall compliance and management
+	- physical and logical reviews
+	- configuration compliance
+	- audit and compliance analysis
+	
