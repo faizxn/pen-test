@@ -1,2 +1,52 @@
-  
-  
+
+
+
+		msf 
+		msf:core- datastore.. module-manager..plugin-manager
+		msf:base- config..logging.. sessions..
+		msf:ui- drive.. console.. cli.. gui..
+
+	# data directory contains editable files used to store binaries required for certain exploits.. wordlists.. images.. and more.
+	# modules directory is where find the exploits.. auxiliary.. post modules.. payloads.. encoders.. and nop generators..
+	
+		+ exploits: 		
+				(aix   bsdi  firefox  irix   multi   solaris	  android    dialup  freebsd  linux  netware  unix  apple_ios  hpux  mainframe  osx  windows)
+				
+		+ auxiliary - include port scanners.. fuzzers.. sniffers and more..
+				(admin   client   dos  gather  scanner  spoof  vsploit analyze  crawler  example.rb  parser  server  sqli  bnat  docx   fuzzers   pdf  sniffer  voip)
+	
+		+ payloads - consists of code that runs remotely..				
+				(singles  stagers  stages)
+	
+		+ encoders - encoders ensure that payloads make it to their destination intact..
+				(cmd  generic  mipsbe  mipsle  php  ppc  ruby  sparc  x64  x86)
+				
+		+ nops - nops keep the payload sizes consistent across exploit attempts..	
+				
+	# scripts directory contains meterpreter and other scripts..
+		+ meterpreter is a payload that provides control over an exploited target system..
+	
+	# if we need to load additional modules from with msfconsole.. use the <loadpath> command..
+	# metasploit-mixins: mixins can add new features and allows modules to have different flavors..
+	
+					+ protocol-specific (http, smb)
+					+ behaviour-specific (brute-force) 
+					+ connect() .. run().. run_host().. run_range() 
+					
+					
+    # all exploits in the metasploit-framework will fall into two categories..
+					+ active 
+					+ passive
+					
+	
+		+ active-exploits: will exploit a specific host.. run until completion.. and then exit.
+
+				- brute-force modules will exit when a shell opens from the victim.
+				- module execution stops if an error is encountered.
+				- to active module to the background by passing ‘-j’ to the exploit command
+
+		+ passive exploits wait for incoming hosts and exploit them as they connect.. it always focus on clients such as web browsers.. ftp clients.. etc..
+				- it can also be used in conjunction with email exploits.. waiting for connections..
+				- it report shells as it can be enumerated by passing ‘-l’ to the sessions command.. passing ‘-i’ will interact with a shell..
+				
+
